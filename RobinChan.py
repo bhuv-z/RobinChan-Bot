@@ -95,3 +95,5 @@ async def terminate(ctx):
 
 bot.loop.create_task(bot.setup())
 bot.run(TOKEN)
+
+#-------- Zephyr was here O<-<
