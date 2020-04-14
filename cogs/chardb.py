@@ -35,7 +35,7 @@ class opbrDB(commands.Cog):
             else:
                 await ctx.send('You can not query all records')
         except Exception as e:
-            err = (traceback.format_exc()).replace("BHUVANESHWAR", "user")
+            err = (traceback.format_exc()).replace("USER", "user")
             await ctx.send(f'```{e}\n\n{err}```')
 
     @commands.command()
