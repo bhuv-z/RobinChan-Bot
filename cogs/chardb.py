@@ -46,7 +46,7 @@ class opbrDB(commands.Cog):
             await self.bot.pool.execute(f"UPDATE {args}")
             await ctx.send(f"``Done``")
         except Exception as e:
-            err = (traceback.format_exc()).replace("BHUVANESHWAR", "user")
+            err = (traceback.format_exc()).replace("USER", "user")
             await ctx.send(f'```{e}\n\n{err}```')
 
     @commands.command()
